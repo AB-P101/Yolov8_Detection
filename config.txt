@@ -1,0 +1,26 @@
+# Can use only 4 models
+# Please change '\' is '/'
+[File_Path_Model]
+path_1 = D:/WannC/Model/best_openvino_model
+path_2 = D:/YOLOv8ALL/runs/detect/train/weights/best_openvino_model/
+path_3 = D:/YOLOv8ALL/runs/detect/train/weights/best_openvino_model/
+path_4 = D:/YOLOv8ALL/runs/detect/train/weights/best_openvino_model/
+
+# Please select 1-4
+[Setting_Model]
+select = 1
+conf = 0.5
+class_list = NG,NG,NG,FG,FG
+filter = 0,1,2
+colorLine = 0,0,255
+width = 0
+height = 0
+
+# If it is not necessary, please do not set this value as it may cause errors.
+[Setting_Camera]
+capture_width = 400
+capture_height = 150
+framerate = 15
+flip_method = 0
+display_width = 400
+display_height = 150
